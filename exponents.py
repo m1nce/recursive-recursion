@@ -9,8 +9,17 @@ def exponent(base, power):
 
 # recursive exponent
 def exponent(base, power):
-    if (power == 0):
+    if power == 0:
+        # base case
         return 1
-    return base * exponent(base, power - 1)
+    elif power % 2 == 0:
+        # recursive case
+        product = exponent(base, power / 2)
+        return product * product
+    else:
+        # recursive case
+        product = exponent(base, power // 2)
+        return product * product * base
 
-print(exponent(2, 0))
+# print(exponent(2, 5)) # returns 32
+print(exponent(17, 10)) # returns 201599390049
