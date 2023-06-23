@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+__author__ = "Minchan Kim"
+__since__ = "June 23, 2023"
+
 # iterative exponent
 """
 def exponent(base, power):
