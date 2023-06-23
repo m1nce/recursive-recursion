@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+__author__ = "Minchan Kim"
+__since__ = "June 23, 2023"
+
 def triangle_number(number):
     """
     Returns the sum of the number and all integers before it until 0.

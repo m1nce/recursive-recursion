@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+__author__ = "Minchan Kim"
+__since__ = "June 23, 2023"
+
 # iterative fibonacci
 """
 def fibonacci(index):
@@ -17,5 +21,5 @@ def fibonacci(index):
     return fibonacci(index - 1) + fibonacci(index - 2)
 
 # test cases
-print(fibonacci(6)) # returns 8
-print(fibonacci(10)) # returns 55
+# print(fibonacci(6)) # returns 8
+# print(fibonacci(10)) # returns 55
